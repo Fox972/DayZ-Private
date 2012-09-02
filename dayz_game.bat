@@ -1,0 +1,1 @@
+start Expansion\beta\arma2oa.exe -mod=@DayZ; -beta=Expansion\beta;Expansion\beta\Expansion -nosplash -cpuCount=4 -maxMem=2047 -exThreads=7 -world=empty

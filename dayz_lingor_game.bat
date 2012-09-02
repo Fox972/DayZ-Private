@@ -1,0 +1,1 @@
+start Expansion\beta\arma2oa.exe -mod=@DayZ_lingor;@dayz_lingor_island; -beta=Expansion\beta;Expansion\beta\Expansion -nosplash -cpuCount=4 -maxMem=2047 -exThreads=7 -world=empty
