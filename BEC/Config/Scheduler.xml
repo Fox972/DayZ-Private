@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<Scheduler>
+	
+	<!-- INTERNAL COMMANDS -->
+	<job id="0">
+		<time>02:50</time> <!-- 02:50 AM -->
+		<day>1,2,3,4,5</day> <!-- Monday till Friday -->
+		<loop>0</loop> 
+		<cmd>say -1 10 minutes to server shutdown!</cmd>	
+		<cmdtype>0</cmdtype>			
+	</job>
+
+	<job id="1">
+		<time>02:55</time>
+		<day>1,2,3,4,5</day>
+		<loop>0</loop> 
+		<cmd>say -1 5 minutes to server shutdown! Please logout to ensure character save.</cmd>	
+		<cmdtype>0</cmdtype>			
+	</job>
+
+	<job id="2">
+		<time>05:50</time>
+		<day>6,7</day> <!-- Saturday and Sunday -->
+		<loop>0</loop> 
+                <cmd>say -1 10 minutes to server shutdown!</cmd>
+		<cmdtype>0</cmdtype>			
+	</job>
+
+	<job id="3">
+		<time>05:55</time>
+		<day>6,7</day>
+		<loop>0</loop> 
+		<cmd>say -1 5 minutes to server shutdown! Please logout to ensure character save.</cmd>	
+		<cmdtype>0</cmdtype>			
+	</job>
+
+        <job id="4">
+                <time>03:00</time> <!-- shut down at 3'o Clock during the week -->
+                <day>1,2,3,4,5,6,7</day>
+                <loop>0</loop> 
+                <cmd>#shutdown</cmd>    
+                <cmdtype>0</cmdtype>            
+        </job> 	
+
+        <job id="5">
+                <time>06:00</time> <!-- shut down at 6'o Clock at the weekend -->
+                <day>1,2,3,4,5,6,7</day>
+                <loop>0</loop> 
+                <cmd>#shutdown</cmd>    
+                <cmdtype>0</cmdtype>            
+        </job> 		
+
+	
+</Scheduler>

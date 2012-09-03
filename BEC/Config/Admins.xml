@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<BEAdmins>
+    
+    <admin id="0">
+        <name>Admin</name>
+        <guid>guid_here</guid>
+        <group>0</group>
+    </admin>
+
+</BEAdmins>
