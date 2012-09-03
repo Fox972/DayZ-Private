@@ -1,0 +1,17 @@
+loadScripts	 				loads the scripts.txt file w/o need to restart server
+missions	 				Returns a list of the available missions on the server.
+players	 	 				Displays a list of the players on the server including BE GUIDs and pings.
+kick [player#]	 				Kicks a player. His # can be found in the player list using the 'players' command.
+RConPassword [password]				Changes the RCon password.
+MaxPing [ping]"					Changes the MaxPing value. If a player has a higher ping, he will be kicked from the server.
+logout	 					Logout from current server, but do not exit the program.
+Exit						Closes the connection.
+Say [player#]					say something to player #. specially -1 equals all players on server (e.g. 'Say -1 Hello World')
+
+loadBans	 				(Re)load the BE ban list from bans.txt.
+bans						Show a list of all BE server bans.
+ban [player #] [time in minutes] [reason]	Ban a player's BE GUID from the server. If time is not specified or 0, the ban will be permanent; if reason is not specified the player will be kicked with "Banned".
+addBan [GUID] [time in minutes] [reason]	Same as "ban", but allows to ban a player that is not currently on the server.
+removeBan [ban #]				Remove ban (get the ban # from the bans command).
+writeBans	 				removes expired bans from bans file
+loadEvents					loads createvehicle.txt and remoteexec.txt file w/o need to restart server
