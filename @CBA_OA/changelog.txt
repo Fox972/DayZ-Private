@@ -1,0 +1,40 @@
+h2. 2012-04-16 09:35:51 +0200
+
+Build 6
+Updated to source:@d2096ada60696b2205c27a9d768c82c433bbc071
+
+
+h2. 2011-05-20 18:10:46 +0200
+
+Build 5
+Updated to source:@8dd82a59d50430ef30122981a1b3fb9f69642024
+
+
+h2. Fri Oct 29 14:22:16 +0200 2010
+
+Build 4
+Updated to source:@43309ce682e01dead2f70b9132eb87a17e570173
+
+
+h2. Fri Jul 30 17:57:52 +0200 2010
+
+Build 3
+Updated to source:@f4ec5f9bd4b0bab0b1e1a979a5d250e46e5d4813
+
+
+h2. Fri Jul 23 14:27:22 +0200 2010
+
+Build 2
+Updated to source:@de4f6b7dfb61678a7f715300448eda5eb8810c3b
+
+
+h2. Fri Jul 09 15:34:12 +0200 2010
+
+Build 1
+Updated to source:@45a56cce0d2faa42cdfc6c2c8e543654cf7aea77
+
+h3. Added
+
+* Warning message when @CBA is not detected [Sickboy]
+
+
